@@ -1,0 +1,4 @@
+customer_id,name,date_of_birth,nationality,email_address,address
+1,John Doe,1990-09-15,SAUDI,user1@leantech.me,"1 National Arabic Towers, Riyadh, Saudi Arabia"
+2,Jane Bloggs,1987-09-22,BRITISH,user2@leantech.me,"140 Tabernacle Street, Shoreditch EC2A 4SD, London, UK"
+3,Mike Smith,1995-02-07,AMERICAN,user3@leantech.me,"20045 Ocean Drive, Los Angeles, CA, USA"

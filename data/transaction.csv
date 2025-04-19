@@ -1,0 +1,8 @@
+transcation_id,account_id,type,description,amount,currency_code,timestamp
+1,1,Transfer,Transfer from Savings Account,33.256,BHD,2020-05-01 11:37:45
+2,1,Transfer,Transfer from Another Bank,11.99,SAR,2020-05-01 12:44:03
+3,1,Card Payment,Amazon,-3.68,SAR,2020-04-22 11:12:59
+4,1,Card Payment,McDonalds,-11.58,SAR,2020-04-30 19:25:45
+5,2,Direct Debit,Utility Payment,-180.00,GBP,2020-06-11 01:55:01
+6,3,Refund,Return of Clothing,56.00,CHF,2008-01-25 06:28:31
+7,3,Transfer,Transfer from Savings Account,1000.45,CHF,2020-05-01 11:37:45
