@@ -71,50 +71,7 @@ function App() {
 
         <h3>Response:</h3>
         {response ? (
-          <div className="response-wrapper">
-            <div className="toggle-bar">
-              <button
-                className={`toggle-btn ${viewMode === "json" ? "active" : ""}`}
-                onClick={() => setViewMode("json")}
-              >
-                JSON
-              </button>
-              <button
-                className={`toggle-btn ${viewMode === "clean" ? "active" : ""}`}
-                onClick={() => setViewMode("clean")}
-              >
-                Clean
-              </button>
-            </div>
-            {viewMode === "json" ? (
-              <pre>{JSON.stringify(response, null, 2)}</pre>
-            ) : (
-              <div className="clean-view">
-                {Array.isArray(response)
-                  ? response.map((item, idx) => (
-                      <div
-                        key={idx}
-                        style={{
-                          marginBottom: "1rem",
-                          paddingBottom: "1rem",
-                          borderBottom: "1px solid #ddd",
-                        }}
-                      >
-                        {Object.entries(item).map(([key, value]) => (
-                          <div key={key}>
-                            <strong>{key}:</strong> {value}
-                          </div>
-                        ))}
-                      </div>
-                    ))
-                  : Object.entries(response).map(([key, value]) => (
-                      <div key={key}>
-                        <strong>{key}:</strong> {value}
-                      </div>
-                    ))}
-              </div>
-            )}
-          </div>
+          <pre>{JSON.stringify(response, null, 2)}</pre>
         ) : (
           <pre>Waiting...</pre>
         )}
