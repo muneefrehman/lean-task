@@ -6,7 +6,6 @@ function App() {
   const [resource, setResource] = useState("customers");
   const [id, setId] = useState("1");
   const [response, setResponse] = useState(null);
-  const [viewMode, setViewMode] = useState("json");
 
   const buildEndpoint = () => {
     if (resource === "account-transactions") {
