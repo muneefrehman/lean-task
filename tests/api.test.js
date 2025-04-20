@@ -3,7 +3,7 @@ const express = require("express");
 const auth = require("../middleware/auth");
 const loadCSV = require("../utils/loadCSV");
 
-// Load your route handlers
+// Load route handlers
 const customerRoutes = require("../routes/customers");
 const accountRoutes = require("../routes/accounts");
 const transactionRoutes = require("../routes/transactions");
